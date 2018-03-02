@@ -8,5 +8,9 @@ layout: post
     <title>{{ page.title }}</title>
   </head>
   <body>
-Here is my page.
+{% highlight ruby %}
+def foo
+  puts 'foo'
+end
+{% endhighlight %}
 </body>
